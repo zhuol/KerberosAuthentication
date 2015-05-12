@@ -152,4 +152,7 @@
       <Filter>Lib</Filter>
     </Library>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
 </Project>
