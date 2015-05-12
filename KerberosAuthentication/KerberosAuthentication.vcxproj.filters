@@ -31,6 +31,9 @@
     <Filter Include="Include\gssapi">
       <UniqueIdentifier>{b0107a1b-3272-49df-91b2-685bc532d6b0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{21bf273c-87a8-4973-90f3-da4811c852a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -154,5 +157,55 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
+    <None Include="DLL\comerr32.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\comerr64.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\gssapi64.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\k5sprt32.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\k5sprt64.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\krb5_32.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\krb5_64.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\krbcc32.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\krbcc64.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\leashw32.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\leashw64.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\wshelp32.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\wshelp64.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\xpprof32.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\xpprof64.dll">
+      <Filter>DLL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <_EmbedManagedResourceFile Include="DLL\gssapi32.dll">
+      <Filter>DLL</Filter>
+    </_EmbedManagedResourceFile>
   </ItemGroup>
 </Project>
