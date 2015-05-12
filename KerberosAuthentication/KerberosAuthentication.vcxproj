@@ -80,9 +80,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="base64.h" />
     <ClInclude Include="Include\com_err.h" />
     <ClInclude Include="Include\gssapi\gssapi.h" />
